@@ -59,9 +59,11 @@ export default defineChain({
       ]
     });
 
+    const { output: jsonAnswer } = step('to_json', { text: answer });
+
     /** Your chain must return an object */
     return {
-      answer
+      answer: jsonAnswer
     };
   }
 });
