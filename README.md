@@ -1,4 +1,4 @@
-# Relevance's Typescript SDK for building and deploying LLM chains
+# Typescript SDK for building & deploying LLM chains
 
 Read the [documentation](https://documentation.relevanceai.com/introduction).
 
