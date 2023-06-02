@@ -23,3 +23,7 @@ Then deploy your chains:
 ```
 relevance deploy
 ```
+
+## Example chain
+
+See the example PDF Q&A chain in the `chains` folder. It features in-flight vector search to intelligently populate LLM context.
