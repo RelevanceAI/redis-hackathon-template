@@ -19,12 +19,14 @@ export default defineChain({
     pdfUrl: {
       type: 'string',
       /** This optional metadata is used for the UI in our deployed form */
+      title: 'Upload your PDF',
       metadata: {
         content_type: 'file_url' // makes this input render as a file upload component
       }
     },
     question: {
       type: 'string',
+      title: 'Question',
     }
   },
 
