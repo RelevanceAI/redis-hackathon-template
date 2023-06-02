@@ -15,7 +15,7 @@ npm install @relevanceai/chain -g
 Then authenticate and fill in the project, region and API key:
 
 ```
-relevance keys
+relevance login
 ```
 
 Then deploy your chains:
