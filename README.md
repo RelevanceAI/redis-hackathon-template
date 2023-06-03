@@ -28,8 +28,12 @@ relevance deploy
 
 We have a "step" for vector searching Redis! See [the documentation](https://documentation.relevanceai.com/reference/transformation-steps#vector-search-redis).
 
-Also, here's an _extensive_ guide about [using Redis + our Notebook UI](https://relevance.notion.site/Building-ChatGPT-for-your-knowledge-base-with-Relevance-AI-Redis-OpenAI-and-Nuxt-a50b6720bc0d4948ac65c71fa3c83dc7) to build a conversational chat experience.
-
 ## Example chain
 
 See the example PDF Q&A chain in the `chains` folder. It features in-flight vector search to intelligently populate LLM context.
+
+## Other resources
+
+Here's an _extensive_ guide about [using Redis + our Notebook UI](https://relevance.notion.site/Building-ChatGPT-for-your-knowledge-base-with-Relevance-AI-Redis-OpenAI-and-Nuxt-a50b6720bc0d4948ac65c71fa3c83dc7) to build a conversational chat experience.
+
+Here's an example of [building a SQL business analyst agent](https://github.com/danieljpalmer/llm-analyst) with our SDK.
