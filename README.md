@@ -24,6 +24,10 @@ Then deploy your chains:
 relevance deploy
 ```
 
+## Searching Redis index
+
+We have a "step" for vector searching Redis! See [the documentation](https://documentation.relevanceai.com/reference/transformation-steps#vector-search-redis).
+
 ## Example chain
 
 See the example PDF Q&A chain in the `chains` folder. It features in-flight vector search to intelligently populate LLM context.
